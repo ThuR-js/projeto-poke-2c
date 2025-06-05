@@ -7,6 +7,17 @@ const Menu = () => {
                   Home
                 </a>
              </li>
+             <li className="nav-item">
+             <a className="nav-link" href="/pokeflex">
+                PokeFlex
+                </a>
+              </li> 
+               <li className="nav-item">
+                <a className="nav-link active" href="/pokegrid">
+                  PokeGrid
+                </a>
+             </li> 
+             
           </ul>
         </div>
      )
