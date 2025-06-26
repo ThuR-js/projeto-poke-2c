@@ -2,6 +2,7 @@ import {Routes, Route} from 'react-router-dom'
 import Home from './Home'
 import PokeFlex from './PokeFlex'
 import PokeGrid from './PokeGrid'
+import ViaCep from './ViaCep'
 import Menu from './Menu'
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Route path = "home" element={<Home/>} />
       <Route path = "pokeflex" element={<PokeFlex/>} />
       <Route path = "pokegrid" element={<PokeGrid/>} />
+      <Route path = "viacep" element={<ViaCep/>} />
     </Routes>
   )
 }
